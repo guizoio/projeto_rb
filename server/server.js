@@ -21,7 +21,7 @@ var swaggerDefinition = {
         version: '1.0',
         description: 'Documentação de todas as rotas da API do Projeto Vendas',
     },
-    host: 'localhost:9093',
+    host: 'localhost:3330',
     basePath: '/'
 };
 

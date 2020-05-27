@@ -7,7 +7,7 @@ server.get('/swagger.json', function (req, res) {
 });
 
 server.get('/*.*', restify.plugins.serveStatic({
-    directory: './site/carousel/',
+    directory: './site/carousel',
     default: 'index.html'
 }));
 
